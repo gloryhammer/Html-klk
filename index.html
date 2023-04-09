@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Prvi kolokvijum- Grupa 2</h1>
+    Prijava za prvi kolokvijum:
+    <form action="novaVjezba2.php" method="get">
+        <table>
+            <tr>
+                <td>Ime i prezime:</td>
+                <td><input type="text" name="ime"></td>
+                <td><input type="text" name="prezime"></td>
+            </tr>
+            <tr>
+                <td>Smjer:</td>
+                <td><input type="radio" name="smjer" value="ETR"><span class="smjer">ETR</span>
+                    <input type="radio" name="smjer" value="EA"><span class="smjer">EA</span>
+                    <input type="radio" checked name="smjer" value="SPR"><span class="smjer">SPR</span>
+                </td>     
+                <td>kolokvijum:</td>
+            </tr>
+            <tr>
+                <td></td><td></td>
+                <td><input type="checkbox" name="klk[]" value="Kolokvijum1">Kolokvijum1</td>              
+            </tr>
+            <tr>
+                <td></td><td></td>
+                <td><input type="checkbox" name="klk[]" value="Kolokvijum2">Kolokvijum2</td>              
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Prijavi se" name="submit">
+                    <input type="reset" value="Poništi" name="reset">
+                </td>
+            </tr>
+
+
+
+
+
+
+        </table>
+    </form>
+    
+</body>
+</html>

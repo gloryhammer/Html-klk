@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: gray;
+    font-family: Cambria;
+}
+table{
+    margin: auto;
+    text-align: left;
+
+}
+input[type="text"]{
+    background-color: yellow;
+    color: black;
+}
+.smjer{
+    font-weight: bold;
+    color: blue;
+}
+input[type="submit"]{
+    width: 50pt;
+}
+input[type="reset"]{
+    background-color: red;
+}
+form{
+    border: 2px solid blue;
+}
